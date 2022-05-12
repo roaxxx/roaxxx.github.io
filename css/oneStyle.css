@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background: url("../imgs/rep01Back.png") no-repeat center top;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif; 
+}
+body img{
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+}
+.next:hover{
+	transform: translateY(-5px);
+}
+.back:hover{
+	transform: translateY(-5px);
+}
+.container{
+	opacity: 0.8;
+	width: 440px;
+	height: 474px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 40px rgba(202, 201, 201, 0.667);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.201);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    transition: all 300ms;
+	color: #ffffff;
+	position: absolute;
+	top:10%;
+	left:6%;
+	transform: translade(50%,-50%);
+	box-sizing:border-box;
+	padding:70px 80px 200px;
+	border-radius:3%;
+}
+.container p{
+	text-align: justify;
+	font-size: large;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	line-height: 135%;
+}
+.next{
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgb(153, 6, 45);
+    border-radius: 15px;
+    width: 60px;
+    height: 26px;
+    position: absolute;
+    opacity: 1.0;
+    top: 85%;
+    left: 50%;
+    padding: 8px 40px 0px;
+	transition: all 300ms;
+}
+.next a{
+    text-decoration: none;
+    text-align: center;
+    color:antiquewhite;
+}
+.back{
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgb(153, 6, 45);
+    border-radius: 15px;
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    top: 85%;
+    left: 18%;
+    padding: 8px 40px 0px;	
+	transition: all 300ms;
+}
+.back a{
+	text-decoration: none;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.bitBucket{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	top:45% ;
+	left: 55%;
+}
+
+.gitlab{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	top:45% ;
+	left: 65%;
+}
+.gitHub {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	top:45% ;
+	left: 75%;
+}
