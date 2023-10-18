@@ -3,8 +3,8 @@
 
 :root {
   --header-height: 3rem;
-  --hue-color: 190;
-  /*--hue-color: 142;*/
+
+  --hue-color: 142;
 
   --first-color: hsl(var(--hue-color), 73%, 25%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -502,7 +502,7 @@ img {
 }
 
 .skills__angular{
-  width: 20%;
+  width: 60%;
 }
 .skills__java{
   width: 70%;
